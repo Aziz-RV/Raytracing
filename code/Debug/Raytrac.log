@@ -1,0 +1,85 @@
+﻿  Raytrac.cpp
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\sphere.h(10,32): error C2504: 'hittable' : classe de base non définie
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\sphere.h(15,11): error C2061: erreur de syntaxe : identificateur 'material'
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\sphere.h(15,11): error C2535: 'sphere::sphere(vec3,double)' : fonction membre déjà définie ou déclarée
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\sphere.h(13): message : voir la déclaration de 'sphere::sphere'
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\sphere.h(18,74): error C2061: erreur de syntaxe : identificateur 'hit_record'
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\sphere.h(21,14): error C2143: erreur de syntaxe : absence de ';' avant '*'
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\sphere.h(21,14): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\sphere.h(21,22): error C2238: jetons inattendus avant ';'
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\sphere.h(16,42): error C2065: 'm' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\sphere.h(16,34): error C2614: 'sphere' : initialisation de membre non conforme : 'mat_ptr' n'est ni une base ni un membre
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\sphere.h(25,70): error C2061: erreur de syntaxe : identificateur 'hit_record'
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\sphere.h(25,78): error C2511: 'bool sphere::hit(const ray &,double,double)' : impossible de trouver la fonction membre surchargée dans 'sphere'
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\sphere.h(10): message : voir la déclaration de 'sphere'
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\sphere.h(26,28): error C2597: référence non conforme à un membre non static 'sphere::center'
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\sphere.h(19): message : voir la déclaration de 'sphere::center'
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\sphere.h(29,45): error C2597: référence non conforme à un membre non static 'sphere::radius'
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\sphere.h(29,45): error C3867: 'sphere::radius' : syntaxe non-standard ; utilisez '&' pour créer un pointeur vers un membre
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\sphere.h(29,45): error C2568: '*' : impossible de résoudre la surcharge de fonction
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\sphere.h(34,13): error C2065: 'rec' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\sphere.h(35,13): error C2065: 'rec' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\sphere.h(35,26): error C2065: 'rec' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\sphere.h(36,13): error C2065: 'rec' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\sphere.h(36,27): error C2065: 'rec' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\sphere.h(37,21): error C2065: 'rec' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\sphere.h(37,35): error C2065: 'mat_ptr' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\sphere.h(48,13): error C2065: 'rec' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\sphere.h(49,13): error C2065: 'rec' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\sphere.h(49,26): error C2065: 'rec' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\sphere.h(50,13): error C2065: 'rec' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\sphere.h(50,27): error C2065: 'rec' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\hittable_list.h(13,39): error C2504: 'hittable' : classe de base non définie
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\hittable_list.h(16,18): error C2061: erreur de syntaxe : identificateur 'hittable'
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\hittable_list.h(16,18): error C2535: 'hittable_list::hittable_list(void)' : fonction membre déjà définie ou déclarée
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\hittable_list.h(15): message : voir la déclaration de 'hittable_list::hittable_list'
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\hittable_list.h(19,75): error C2061: erreur de syntaxe : identificateur 'hit_record'
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\hittable_list.h(20,13): error C2143: erreur de syntaxe : absence de ';' avant '*'
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\hittable_list.h(20,13): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\hittable_list.h(20,20): error C2238: jetons inattendus avant ';'
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\hittable_list.h(16,42): error C2065: 'list' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\hittable_list.h(16,49): error C2065: 'l' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\hittable_list.h(16,64): error C2065: 'n' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\hittable_list.h(25,77): error C2061: erreur de syntaxe : identificateur 'hit_record'
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\hittable_list.h(26,5): error C2065: 'hit_record' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\hittable_list.h(26,16): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'temp_rec'
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\hittable_list.h(26,16): error C2065: 'temp_rec' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\hittable_list.h(31,13): error C2065: 'list' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\hittable_list.h(31,52): error C2065: 'temp_rec' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\hittable_list.h(33,30): error C2065: 'temp_rec' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\hittable_list.h(34,13): error C2065: 'rec' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\hittable_list.h(34,19): error C2065: 'temp_rec' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\material.h(11,59): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\material.h(11,59): error C2143: erreur de syntaxe : absence de ',' avant '&'
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\material.h(17,59): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\material.h(17,59): error C2143: erreur de syntaxe : absence de ',' avant '&'
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\material.h(18,23): error C2065: 'rec' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\material.h(19,9): error C2065: 'scattered' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\material.h(19,25): error C2065: 'rec' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\material.h(19,41): error C2065: 'rec' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\material.h(20,9): error C2065: 'attenuation' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\material.h(30,60): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\material.h(30,60): error C2143: erreur de syntaxe : absence de ',' avant '&'
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\material.h(31,65): error C2065: 'rec' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\material.h(31,1): error C2660: 'reflect' : la fonction ne prend pas 1 arguments
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\vec3.h(116,13): message : voir la déclaration de 'reflect'
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\material.h(32,9): error C2065: 'scattered' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\material.h(32,25): error C2065: 'rec' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\material.h(32,1): error C2440: '<function-style-cast>' : impossible de convertir de 'vec3' en 'ray'
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\material.h(32,1): message : Aucun constructeur n'a pu prendre le type de source, ou la résolution de la surcharge du constructeur était ambiguë
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\material.h(33,9): error C2065: 'attenuation' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\material.h(34,21): error C2065: 'scattered' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\material.h(34,44): error C2065: 'rec' : identificateur non déclaré
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\material.h(34,1): error C2660: 'dot' : la fonction ne prend pas 1 arguments
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\vec3.h(91,15): message : voir la déclaration de 'dot'
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\Raytrac.cpp(77,12): error C2660: 'material::scatter' : la fonction ne prend pas 4 arguments
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\material.h(11,18): message : voir la déclaration de 'material::scatter'
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\Raytrac.cpp(121,83): error C2661: 'sphere::sphere' : aucune fonction surchargée ne nécessite 3 arguments
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\Raytrac.cpp(122,88): error C2661: 'sphere::sphere' : aucune fonction surchargée ne nécessite 3 arguments
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\Raytrac.cpp(123,77): error C2664: 'metal::metal(const metal &)' : impossible de convertir l'argument 1 de 'vec3' en 'const metal &'
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\Raytrac.cpp(123,77): message : Raison : impossible de convertir de 'vec3' en 'const metal'
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\Raytrac.cpp(123,61): message : Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\material.h(39,1): message : voir la déclaration de 'metal::metal'
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\Raytrac.cpp(123,82): error C2661: 'sphere::sphere' : aucune fonction surchargée ne nécessite 3 arguments
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\Raytrac.cpp(124,83): error C2661: 'sphere::sphere' : aucune fonction surchargée ne nécessite 3 arguments
+C:\Users\user\Desktop\C++\Raytrac\Raytrac\Raytrac.cpp(125,49): error C2661: 'hittable_list::hittable_list' : aucune fonction surchargée ne nécessite 2 arguments
